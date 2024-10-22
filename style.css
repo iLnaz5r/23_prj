@@ -1,0 +1,151 @@
+body {
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    font-family: Lato;
+}
+
+.wrapper {
+    width: 750px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.result {
+    border-radius: 30px;
+    text-align: center;
+    background-color: #5a3df9;
+    color: #fff;
+    padding: 40px;
+}
+.main {
+    font-size: 20px;
+    font-weight: 600;
+    opacity: 70%;
+    margin-bottom: 40px;
+}
+.final-score{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    background-color: #4925cf;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 50%;
+    line-height: 20px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    /* opacity: 70%; */
+}
+
+.final-score .now{
+    font-size: 70px;
+}
+
+.final-score .all-score {
+    opacity: 70%;
+}
+
+.result__note {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.summary {
+    padding: 40px;
+    display: grid;
+    grid-template-rows: 1fr 5fr 50px;
+}
+.summary__title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.qualities {
+    /* display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 20px; */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.quality {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    width: 300px;
+    padding: 17px;
+    /* opacity: 50%; */
+}
+ .bolds{
+    color: #565656;
+ }
+
+.reaction {
+    background-color: #fff6f5;
+}
+
+.reaction .main-title {
+    color: #f1616a;
+}
+
+.memory {
+    background-color: #fffbf2;
+}
+
+.memory .main-title {
+    color: #f7b431;
+}
+
+.verbal {
+    background-color: #f2fbfa;
+
+}
+
+.verbal .main-title {
+    color: #2aa98b;
+
+}
+
+.vis{
+    background-color: #f3f3fd;
+
+}
+
+.vis .main-title {
+    color: #3945e5;
+
+}
+
+.main-title {
+    font-size: 18px;
+    flex: 1 1 auto;
+}
+.curr-score {
+    color: #9f9f9f;
+
+}
+
+.curr__score span {
+    font-weight: 600;
+    color: #000;
+}
+
+.knopka{
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    color: #fff;
+    background-color: #303b59;
+    padding: 15px 35px;
+    border-radius: 30px;
+    width: 80%;
+
+}
